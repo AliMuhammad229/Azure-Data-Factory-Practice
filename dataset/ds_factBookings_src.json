@@ -1,0 +1,21 @@
+{
+	"name": "ds_factBookings_src",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_storage_file",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "SQLData",
+				"fileSystem": "bronze"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,9 @@
+{
+	"name": "adf-ali-practice",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d40c1bb6-8532-4496-9d5d-a7eb693b3375",
+		"tenantId": "fd3eead5-dc9a-4841-a3b6-0fb0bfd0b65c"
+	}
+}
